@@ -13,25 +13,25 @@ export const mainListItems = (
   <React.Fragment>
     <ListItemButton>
       <ListItemIcon>
-        <DashboardIcon />
+        <DashboardIcon sx={{ color: 'white',}} />
       </ListItemIcon>
       <ListItemText primary="Assistente Virtual" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
-        <ShoppingCartIcon />
+        <ShoppingCartIcon sx={{ color: 'white',}} />
       </ListItemIcon>
       <ListItemText primary="Resumo" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
-        <PeopleIcon />
+        <PeopleIcon sx={{ color: 'white',}} />
       </ListItemIcon>
       <ListItemText primary="Meu Portfólio" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
-        <BarChartIcon />
+        <BarChartIcon sx={{ color: 'white',}} />
       </ListItemIcon>
       <ListItemText primary="Investidor -
        Brasil" />
@@ -44,13 +44,13 @@ export const secondaryListItems = (
   <React.Fragment>
     <ListItemButton>
       <ListItemIcon>
-        <AssignmentIcon />
+        <AssignmentIcon sx={{ color: 'white',}} />
       </ListItemIcon>
       <ListItemText primary="Investidor - Exterior" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
-        <AssignmentIcon />
+        <AssignmentIcon sx={{ color: 'white',}} />
       </ListItemIcon>
       <ListItemText primary="Suporte" />
     </ListItemButton>
